@@ -4,15 +4,17 @@ body {
 }
 
 #peca-overlay {
-  width: 640px;
-  height: 480px;
-  background-color: #e64e21;
+  width: 800px;
+  height: 600px;
+  background-image: url("../images/PreRoll_PlayKids_800x600.png");
 }
 
-#peca-overlay img {
-  top: 212px;
-  left: 210px;
+#peca-overlay span {
+  top: 145px;
+  left: 336px;
   position:relative;
+  border-radius: 7px;
+  display: inline-block;
 }
 
 .animacao {
@@ -20,7 +22,19 @@ body {
   animation-duration: 2s;
 }
 
+.botao {
+  padding: 21px 133px 21px  134px;
+  background: rgba(255, 255, 255, 0.5);
+  text-indent: -9999px;
+  opacity: 0; 
+}
+
+.botao:hover {
+  background: rgba(0, 0, 0, 0.2);
+  opacity: 1; 
+}
+
 @keyframes logo {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from { opacity: 1; }
+    to { opacity: 0; }
 }
