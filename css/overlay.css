@@ -1,0 +1,26 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#peca-overlay {
+  width: 640px;
+  height: 480px;
+  background-color: #e64e21;
+}
+
+#peca-overlay img {
+  top: 212px;
+  left: 210px;
+  position:relative;
+}
+
+.animacao {
+  animation-name: logo;
+  animation-duration: 2s;
+}
+
+@keyframes logo {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
